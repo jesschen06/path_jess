@@ -1,0 +1,76 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header p {
+  text-transform: Uppercase;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main {
+  width: 100%;
+  margin-top: 100px;
+}
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right, .left {
+  width: 50%;
+}
+
+.img {
+  height: auto;
+
+}
+.dot-box .dot{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.dot.green {
+  background-color: #3d4a35;
+}
+
+.dot.blue {
+  background-color: #a8dbff;
+}
+
+.dot.pink {
+  background-color: #eeb4a1;
+}
+
+.btn-arrow {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-arrow .left, .btn-arrow .right {
+  width: 30px;
+}
+#path {
+    border-bottom: 1px solid black;
+}
